@@ -9,6 +9,10 @@
     "bot_token": {
       "description": "El token del bot",
       "value": ""
+    },
+    "bot": {
+      "description": "El token del bot", 
+      "value": ""
     }
   },
   "buildpacks": [
