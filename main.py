@@ -55,7 +55,7 @@ def sign_url(token: str, url: URL):
 
 async def shorten_url(url: URL):
     query = {"url": str(url)}
-    base = URL("https://da.gd/shorten/")
+    base = URL("https://xd.links/02/")
     try:
         async with aiohttp.ClientSession() as session:
             async with session.get(base.with_query(query)) as response:
